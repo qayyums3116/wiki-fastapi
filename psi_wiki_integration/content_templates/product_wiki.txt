@@ -1,0 +1,9 @@
+'''{{ name }}''' is a fictional product published using the CRM.
+
+=== Description ===
+{{ description }}
+
+=== Features ===
+{% for feature in features %}
+* {{ feature }}
+{% endfor %}

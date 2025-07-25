@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: psi-wiki-api
+    env: python
+    buildCommand: ""
+    startCommand: uvicorn api:app --host 0.0.0.0 --port 10000
+    envVars:
+      - key: WIKI_USERNAME
+        value: Qayyum3116@CRMIntegrationBot
+      - key: WIKI_BOT_PASSWORD
+        value: your_bot_password_here
